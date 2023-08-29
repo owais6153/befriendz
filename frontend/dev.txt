@@ -1,0 +1,22 @@
+====================================Remainig
+Username and email exsist validation on - Register page
+All Fields on update profile
+Suggested fRIENDS
+Wall of fame
+Fetch topics lazily        
+Lazyloading Commnts
+
+===================================Problems
+React Helmet - 
+OWL
+
+===================================Security
+Create Password - Redirection (Redirect user if not coming from /verify-email)
+
+
+============================= MISSING
+How admin is approving Become life coach
+Invite in groups
+Forms on attend Webinar
+Checkout on products
+Product Categories

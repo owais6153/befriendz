@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import "owl.carousel/dist/assets/owl.carousel.css";
+@import "owl.carousel/dist/assets/owl.theme.default.css";
+@import "react-toastify/dist/ReactToastify.css";
+
+$theme-colors: (
+  "primary": #fd6769,
+  "primary-light": #ffe1e1,
+  "secondary": #0493a3,
+  "secondary-light": #e6f4f6,
+  "dark": #2a2a2a,
+  "light-grey": #949494,
+  "light-near-white": #f5f5f5,
+  "light": #fff,
+);
+
+.sun-gradient {
+  background: linear-gradient(117.37deg, #fd6769 -11.41%, #ffe815 113.41%);
+}
+.blueish-gradient {
+  background: linear-gradient(117.37deg, #00ccf9 -5.24%, #fee501 113.41%);
+}
+.purpleish-gradient {
+  background: linear-gradient(117.37deg, #f5e126 -11.41%, #ff21b3 113.41%);
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.radius-100 {
+  border-radius: 100% !important;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2a2a2a;
+}
+img {
+  max-width: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.btn-link,
+a {
+  text-decoration: none;
+  font-weight: 800;
+  color: var(--bs-secondary);
+  &:hover {
+    color: var(--bs-primary);
+  }
+}
+.h1,
+h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 160%;
+  margin-bottom: 24px;
+}
+h2,
+.h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  margin-bottom: 24px;
+}
+h3,
+.h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+}
+p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--bs-light-grey);
+  margin-bottom: 24px;
+}
+p.lg {
+  font-size: 24px;
+}
+p.sm {
+  font-size: 14px;
+}
+p a {
+  font-size: inherit;
+  font-weight: inherit;
+}
+.form-error {
+  font-size: 12px;
+  color: #f4646b;
+  line-height: 210%;
+}
+// Owl
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.owl-nav .owl-prev {
+  left: 0;
+}
+.owl-nav .owl-next {
+  right: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--bs-secondary);
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  height: 12px;
+  width: 12px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  margin: 4px;
+  height: 9px;
+  width: 9px;
+}
+.owl-theme .owl-nav button {
+  background: var(--bs-light) !important;
+  height: 35px;
+  width: 35px;
+  border-radius: 100% !important;
+  color: var(--bs-primary) !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px !important;
+}
+button.owl-next i {
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+
+button.owl-prev i {
+  margin-right: 3px;
+  margin-bottom: 4px;
+}
+// Buttons
+
+.btn {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.btn-primary {
+  color: var(--bs-light);
+}
+.btn-primary:hover {
+  color: var(--bs-light);
+}
+.btn-lg {
+  padding: 16px;
+}
+.btn-radius {
+  border-radius: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-right: solid #f5f5f5 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffe1e1;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f18e8e;
+}
+.empty-space {
+  pointer-events: none;
+}

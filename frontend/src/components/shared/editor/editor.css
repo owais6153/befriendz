@@ -1,0 +1,15 @@
+
+.ql-toolbar{
+background: #F5F5F5;
+border:none !important;
+}
+.ql-container {
+    border: none !important;
+}
+
+.ql-blank {
+    font-size: 18px;
+}
+.ql-editor, .ql-editor.ql-blank::before{
+    color: #949494;
+}

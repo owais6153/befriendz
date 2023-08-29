@@ -1,0 +1,11 @@
+================================RELATIONS
+User => topics
+
+
+================================Tasks
+Image Uploading
+
+
+================================Security Problems
+Set type on tokens
+Regernate tokens for session hijacking
